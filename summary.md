@@ -21,3 +21,8 @@
 > GraphQL
 > Markdown All in One
 > Path Intellisense
+
+# 48. Deploying Our App
+
+> git remote add origin git@github.com:pcsmomo/monsters-rolodex.git
+> yarn add gh-pages
