@@ -26,3 +26,7 @@
 
 > git remote add origin git@github.com:pcsmomo/monsters-rolodex.git
 > yarn add gh-pages
+
+# 66. E-commerce Homepage + SASS setup
+
+## npx create-react-app crwn-clothing --template cra-template-pwa
