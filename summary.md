@@ -24,9 +24,20 @@
 
 # 48. Deploying Our App
 
-> git remote add origin git@github.com:pcsmomo/monsters-rolodex.git
-> yarn add gh-pages
+## git remote add origin git@github.com:pcsmomo/monsters-rolodex.git
+
+## npm install --save gh-pages
+
+## npm run deploy
 
 # 66. E-commerce Homepage + SASS setup
 
 ## npx create-react-app crwn-clothing --template cra-template-pwa
+
+## npm install --save node-sass
+
+## git remote add origin git@github.com:pcsmomo/crwn-clothing.git
+
+## To solve a SSH permission issue.
+
+> https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
