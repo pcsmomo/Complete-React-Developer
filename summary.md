@@ -45,3 +45,7 @@
 # 76. Routing In Our Project
 
 ## npm install --save react-router-dom
+
+# 91. Adding a Project to Firebase 04:07
+
+## npm install --save firebase
