@@ -49,3 +49,7 @@
 # 91. Adding a Project to Firebase 04:07
 
 ## npm install --save firebase
+
+# 114. Setting Up Redux 1 14:58
+
+## npm install --save redux redux-logger react-redux
