@@ -57,3 +57,9 @@
 # 130. Reselect Library
 
 ## npm install --save reselect
+
+# 137. Checkout Item Component
+
+## UTF-8 Dingbats Icons
+
+> https://www.w3schools.com/charsets/ref_utf_dingbats.asp
