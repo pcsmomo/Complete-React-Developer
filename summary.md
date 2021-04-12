@@ -46,10 +46,14 @@
 
 ## npm install --save react-router-dom
 
-# 91. Adding a Project to Firebase 04:07
+# 91. Adding a Project to Firebase
 
 ## npm install --save firebase
 
-# 114. Setting Up Redux 1 14:58
+# 114. Setting Up Redux
 
 ## npm install --save redux redux-logger react-redux
+
+# 130. Reselect Library
+
+## npm install --save reselect
