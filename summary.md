@@ -67,3 +67,7 @@
 # 141. Redux Persist
 
 ## npm install --save redux-persist
+
+# 148. Memoizing selectCollection and collectionUrlParam 00:57
+
+## npm install --save lodash.memoize
