@@ -63,3 +63,7 @@
 ## UTF-8 Dingbats Icons
 
 > https://www.w3schools.com/charsets/ref_utf_dingbats.asp
+
+# 141. Redux Persist
+
+## npm install --save redux-persist
