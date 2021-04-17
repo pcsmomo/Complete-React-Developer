@@ -79,3 +79,14 @@
 > Testing card number
 > 4242 4242 4242 4242 -- Exp: 01/22 -- CVV: 123
 > https://stripe.com/docs/testing#cards
+
+# 159. Deploying To Heroku
+
+## heroku insetall & setup
+
+> heroku login
+> heroku create noahdw-crwn-live --buildpack https://github.com/mars/create-react-app-buildpack.git
+> git push heroku main/master
+> It will deploy and build
+
+## add domain name noahdw-crwn-live.herokuapp.com on firebase Authentication/Sign-in method
