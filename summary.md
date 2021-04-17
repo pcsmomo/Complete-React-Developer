@@ -71,3 +71,11 @@
 # 148. Memoizing selectCollection and collectionUrlParam 00:57
 
 ## npm install --save lodash.memoize
+
+# 155. Stripe Integration
+
+## npm install --save react-stripe-checkout
+
+> Testing card number
+> 4242 4242 4242 4242 -- Exp: 01/22 -- CVV: 123
+> https://stripe.com/docs/testing#cards
