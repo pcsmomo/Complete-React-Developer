@@ -90,3 +90,7 @@
 > It will deploy and build
 
 ## add domain name noahdw-crwn-live.herokuapp.com on firebase Authentication/Sign-in method
+
+# 165. styled-components
+
+## npm install --save styled-components
