@@ -15,7 +15,7 @@ import Header from "./components/header/header.component";
 import {
   auth,
   createUserProfileDocument,
-  addCollectionAndDocuments,
+  // addCollectionAndDocuments,
 } from "./firebase/firebase.utils";
 
 import { setCurrentUser } from "./redux/user/user.actions";
@@ -26,7 +26,10 @@ class App extends React.Component {
   unsubscribeFromAuth = null;
 
   componentDidMount() {
-    const { setCurrentUser, collectionsArray } = this.props;
+    const {
+      setCurrentUser,
+      // collectionsArray
+    } = this.props;
 
     this.unsubscribeFromAuth = auth.onAuthStateChanged(async (userAuth) => {
       if (userAuth) {
