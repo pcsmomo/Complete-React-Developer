@@ -44,6 +44,7 @@ class App extends React.Component {
       }
 
       setCurrentUser(userAuth);
+
       // Write shop_data only once
       // addCollectionAndDocuments(
       //   "collections",
