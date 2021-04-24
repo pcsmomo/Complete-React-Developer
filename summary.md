@@ -94,3 +94,7 @@
 # 165. styled-components
 
 ## npm install --save styled-components
+
+# 187. Redux Thunk
+
+## npm install --save redux-thunk
