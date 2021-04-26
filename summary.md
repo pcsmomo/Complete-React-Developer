@@ -98,3 +98,7 @@
 # 187. Redux Thunk
 
 ## npm install --save redux-thunk
+
+# 196. redux-saga
+
+## npm install --save redux-saga
