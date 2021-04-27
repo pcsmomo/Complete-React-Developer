@@ -12,13 +12,10 @@ import CheckoutPage from "./pages/checkout/checkout.component";
 
 import Header from "./components/header/header.component";
 
-import {
-  auth,
-  createUserProfileDocument,
-  // addCollectionAndDocuments,
-} from "./firebase/firebase.utils";
+// import {
+//   addCollectionAndDocuments,
+// } from "./firebase/firebase.utils";
 
-import { setCurrentUser } from "./redux/user/user.actions";
 import { selectCurrentUser } from "./redux/user/user.selectors";
 // import { selectCollectionsForPreview } from "./redux/shop/shop.selector";
 
@@ -26,15 +23,11 @@ class App extends React.Component {
   unsubscribeFromAuth = null;
 
   componentDidMount() {
-    const {
-      setCurrentUser,
-      // collectionsArray
-    } = this.props;
-
+    // const { collectionsArray } = this.props;
+    //
     // this.unsubscribeFromAuth = auth.onAuthStateChanged(async (userAuth) => {
     //   if (userAuth) {
     //     const userRef = await createUserProfileDocument(userAuth);
-
     //     userRef.onSnapshot((snapShot) => {
     //       setCurrentUser({
     //         id: snapShot.id,
@@ -42,9 +35,7 @@ class App extends React.Component {
     //       });
     //     });
     //   }
-
     //   setCurrentUser(userAuth);
-
     //   /*
     //   // Write shop_data only once
     //   // addCollectionAndDocuments(
@@ -89,8 +80,4 @@ const mapStateToProps = createStructuredSelector({
   // collectionsArray: selectCollectionsForPreview,
 });
 
-const mapDispatchToProps = (dispatch) => ({
-  setCurrentUser: (user) => dispatch(setCurrentUser(user)),
-});
-
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default connect(mapStateToProps)(App);
