@@ -1,9 +1,21 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import Card from "../card/card.component";
 
 const User = ({ userId }) => {
-  const user = null;
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    const fetchUser = async () => {
+      const res = await fetch(
+        `http://jsonplaceholder.typicode.com/users?id=${userId}`
+      );
+      const users = await res.json();
+      setUser(users[0]);
+    };
+
+    fetchUser();
+  });
 
   return (
     <Card>
