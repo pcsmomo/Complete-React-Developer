@@ -1,13 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import Card from '../card/card.component';
-
-import useFetch from '../../effects/use-fetch.effect';
+import Card from "../card/card.component";
 
 const User = ({ userId }) => {
-  const user = useFetch(
-    `https://jsonplaceholder.typicode.com/users?id=${userId}`
-  );
+  const user = null;
 
   return (
     <Card>
