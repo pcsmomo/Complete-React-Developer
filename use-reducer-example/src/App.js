@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import SagasExample from './components/sagas-example/sagas-example.component';
+import UseReducerExample from "./components/use-reducer-example/use-reducer.component";
 
-import './App.css';
+import "./App.css";
 
-const App = props => {
+const App = (props) => {
   return (
-    <div className='App'>
-      <SagasExample />
+    <div className="App">
+      <UseReducerExample />
     </div>
   );
 };
