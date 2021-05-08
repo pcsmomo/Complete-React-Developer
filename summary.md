@@ -102,3 +102,19 @@
 # 196. redux-saga
 
 ## npm install --save redux-saga
+
+# 226. Creating our Server Inside the Project 10:33
+
+## mkdir client
+
+## mv ./\* ./client
+
+## touch package.json server.js
+
+## copy package.json from the lecture
+
+## npm install -g nodemon
+
+## npm install --save body-parser cors dotenv express stripe
+
+## npm install --save-dev concurrently
