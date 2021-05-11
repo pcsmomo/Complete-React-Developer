@@ -68,7 +68,7 @@
 
 ## npm install --save redux-persist
 
-# 148. Memoizing selectCollection and collectionUrlParam 00:57
+# 148. Memoizing selectCollection and collectionUrlParam
 
 ## npm install --save lodash.memoize
 
@@ -103,7 +103,7 @@
 
 ## npm install --save redux-saga
 
-# 226. Creating our Server Inside the Project 10:33
+# 226. Creating our Server Inside the Project
 
 ## mkdir client
 
@@ -117,6 +117,20 @@
 
 ## npm install --save-dev concurrently nodemon
 
-# 232. Connecting Client To Server 09:23
+# 232. Connecting Client To Server
 
 ## npm install --save axios
+
+# 234. Deploying To Production
+
+## heroku apps
+
+## heroku git:remote -a noahdw-crwn-live
+
+## heroku buildpacks
+
+## heroku buildpacks:remove https://github.com/mars/create-react-app-buildpack.git
+
+## heroku config:set STRIPE_SECRET_KEY=
+
+## heroku open
