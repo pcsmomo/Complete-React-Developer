@@ -113,8 +113,10 @@
 
 ## copy package.json from the lecture
 
-## npm install -g nodemon
-
 ## npm install --save body-parser cors dotenv express stripe
 
-## npm install --save-dev concurrently
+## npm install --save-dev concurrently nodemon
+
+# 232. Connecting Client To Server 09:23
+
+## npm install --save axios
