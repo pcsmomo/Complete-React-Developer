@@ -15,8 +15,12 @@ import App from "./App";
 
 const httpLink = createHttpLink({
   uri: "https://crwn-clothing.com",
-  // uri: "http://localhost:4000",  // this is crwn-clothing-prisma-apollo-server, playground
 });
+
+// /* this is crwn-clothing-prisma-apollo-server, playground */
+// const httpLink = createHttpLink({
+//   uri: "http://localhost:4000",
+// });
 
 const cache = new InMemoryCache();
 
