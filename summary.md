@@ -138,3 +138,7 @@
 # 249. Introduction To Apollo
 
 ## npm install --save apollo-boost react-apollo graphql
+
+# 259. Note: Compose in next lesson
+
+## npm install --save lodash
