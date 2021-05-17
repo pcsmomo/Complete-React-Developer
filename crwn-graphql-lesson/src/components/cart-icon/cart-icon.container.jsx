@@ -17,20 +17,21 @@ const GET_ITEM_COUNT = gql`
   }
 `;
 
-const CartIconContainer = ({ data: { itemCount }, mutate }) => {
-  const toggleCartHidden = mutate;
+const CartIconContainer = ({ data: { itemCount }, toggleCartHidden }) => {
   return <CartIcon toggleCartHidden={toggleCartHidden} itemCount={itemCount} />;
 };
 
 export default flowRight(
   graphql(GET_ITEM_COUNT),
-  graphql(TOGGLE_CART_HIDDEN)
+  graphql(TOGGLE_CART_HIDDEN, { name: "toggleCartHidden" })
 )(CartIconContainer);
 
 /** Extra query and mutation for a test */
 /** Cannot receive two queries nor mutations.
  * The second one overwrites the first one.
  * Query comes to "data" and Mutation comes to "mutate".
+ *
+ ***** But you can name them differently to use all of them
  */
 
 // const GET_CART_HIDDEN = gql`
