@@ -1,6 +1,7 @@
 import React from "react";
 
-class Lifecycles extends React.Component {
+// PureComponent is the same as shouldComponentUpdate works here
+class Lifecycles extends React.PureComponent {
   constructor() {
     super();
     console.log("constructor!");
