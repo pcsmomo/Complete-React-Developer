@@ -1,10 +1,10 @@
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback, useMemo } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
 const functions = new Set();
 
-const App = () => {
+const AppCallback = () => {
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(0);
 
@@ -16,7 +16,12 @@ const App = () => {
   functions.add(incrementCount1);
   functions.add(incrementCount2);
 
-  console.log(functions);
+  const doSomethingComplicated = useMemo(() => {
+    console.log("I am computing something complex");
+    return ((count1 * 1000) % 12.4) * 51000 - 4000;
+  }, [count1]);
+
+  // console.log(functions);
 
   return (
     <div className="App">
@@ -26,9 +31,10 @@ const App = () => {
         <button onClick={incrementCount1}>Increase Count1</button>
         Count2: {count2}
         <button onClick={incrementCount2}>Increase Count2</button>
+        complexValue: {doSomethingComplicated}
       </header>
     </div>
   );
 };
 
-export default App;
+export default AppCallback;
