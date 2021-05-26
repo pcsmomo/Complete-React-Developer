@@ -155,3 +155,7 @@
 
 - https://letsencrypt.org/
 - https://www.cloudflare.com/
+
+## 292. Resources: PWA - HTTPS
+
+## https://realfavicongenerator.net/
