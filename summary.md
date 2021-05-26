@@ -150,3 +150,8 @@
 # 289. Progressive Web Apps Examples
 
 ## https://pokedex.org/
+
+# 290. PWA - HTTPS 06:11
+
+- https://letsencrypt.org/
+- https://www.cloudflare.com/
