@@ -159,3 +159,15 @@
 ## 292. Resources: PWA - HTTPS
 
 ## https://realfavicongenerator.net/
+
+# 294. PWA - Service Workers 13:15
+
+## Manually build service-worker
+
+- npm install --save sw-precache
+- "build": "react-scripts build && sw-precache --config=sw-precache-config.js"
+- and some more steps
+
+# 298. Converting Our App To PWA
+
+## npm add --save express-sslify
