@@ -179,3 +179,4 @@
 - Mocha, Chai, Sinon : popular test group of three
 - Istanbul : Coverage tool
 - Enzyme : to test React Components' output
+- Nightmare, Webdriverio, TestCafe, Nightmare, Cypress : automation testing libraries
