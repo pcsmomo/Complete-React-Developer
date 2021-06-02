@@ -171,3 +171,11 @@
 # 298. Converting Our App To PWA
 
 ## npm add --save express-sslify
+
+# 308. Testing Libraries
+
+- Jest : fast and all in one.
+- Mocha : a bit hard to set up but more flexible
+- Mocha, Chai, Sinon : popular test group of three
+- Istanbul : Coverage tool
+- Enzyme : to test React Components' output
