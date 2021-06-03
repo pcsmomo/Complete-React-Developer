@@ -180,3 +180,7 @@
 - Istanbul : Coverage tool
 - Enzyme : to test React Components' output
 - Nightmare, Webdriverio, TestCafe, Nightmare, Cypress : automation testing libraries
+
+# 314. Setting Up Jest
+
+## npm install --save-dev jest
