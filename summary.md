@@ -191,3 +191,7 @@
 - Numbers API : http://numbersapi.com/#42
 - Chuck Norris API : https://api.chucknorris.io/
 - Pokemon API : https://pokeapi.co/
+
+# 318. Asynchronous Tests
+
+## npm install --save-dev node-fetch
