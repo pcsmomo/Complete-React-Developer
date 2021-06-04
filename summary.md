@@ -184,3 +184,10 @@
 # 314. Setting Up Jest
 
 ## npm install --save-dev jest
+
+# 317. Quick Note: Upcoming API Endpoint
+
+- Star Wars API : http://swapi.py4e.com/api/people/
+- Numbers API : http://numbersapi.com/#42
+- Chuck Norris API : https://api.chucknorris.io/
+- Pokemon API : https://pokeapi.co/
