@@ -247,3 +247,9 @@ npm install --save-dev node-fetch
 # 320. Resources: Jest Cheat Sheet
 
 ## [Jest Cheat Sheet](https://github.com/sapegin/jest-cheat-sheet)
+
+# 325. Introduction To Enzyme
+
+```
+npm install --save-dev enzyme @wojtekmaj/enzyme-adapter-react-17
+```
