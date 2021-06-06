@@ -253,3 +253,11 @@ npm install --save-dev node-fetch
 ```
 npm install --save-dev enzyme @wojtekmaj/enzyme-adapter-react-17
 ```
+
+# 325. Quick Note: Empty Snapshots
+
+## [if the snapshot is empty](https://backbencher.dev/blog/empty-shallowwrapper-snapshot-jest-enzyme)
+
+```
+npm install --save-dev enzyme-to-json
+```
