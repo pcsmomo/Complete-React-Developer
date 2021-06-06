@@ -6,7 +6,10 @@ node_modules
 /.pnp
 .pnp.js
 
-# testing
+# Ignore test-related files
+coverage.data
+/coverage.data
+coverage
 /coverage
 
 # production
