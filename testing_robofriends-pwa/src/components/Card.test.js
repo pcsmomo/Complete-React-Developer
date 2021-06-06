@@ -3,5 +3,5 @@ import React from "react";
 import Cart from "./Card";
 
 it("expect to render Card component", () => {
-  expect(shallow(<Cart />).length).toEqual(1);
+  expect(shallow(<Cart />)).toMatchSnapshot();
 });
