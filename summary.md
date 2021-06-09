@@ -13,6 +13,7 @@
 
 ## VS Code extensions
 
+- Prettier
 - Rainbow Brackets
 - Reactjs code snippets
 - Material Icon Theme
@@ -21,6 +22,8 @@
 - GraphQL
 - Markdown All in One
 - Path Intellisense
+
+Prettier -> Prettier: Trailing Comma : none
 
 # 48. Deploying Our App
 
