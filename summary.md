@@ -270,3 +270,6 @@ npm install --save-dev enzyme-to-json
 ```
 npm install --save-dev redux-mock-store
 ```
+
+- [nock](https://www.npmjs.com/package/nock)
+- [supertest](https://www.npmjs.com/package/supertest)
