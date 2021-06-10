@@ -273,3 +273,9 @@ npm install --save-dev redux-mock-store
 
 - [nock](https://www.npmjs.com/package/nock)
 - [supertest](https://www.npmjs.com/package/supertest)
+
+# 335. Testing In Our Master Project
+
+## OptionLink.displayName = 'OptionLink'; in header.styles.jsx
+
+## wrapper.find('OptionLink') // finds OptionLink styled components in wrapper
