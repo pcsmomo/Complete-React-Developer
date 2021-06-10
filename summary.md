@@ -264,3 +264,9 @@ npm install --save-dev enzyme @wojtekmaj/enzyme-adapter-react-17
 ```
 npm install --save-dev enzyme-to-json
 ```
+
+# 333. Testing Actions
+
+```
+npm install --save-dev redux-mock-store
+```
