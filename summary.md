@@ -279,3 +279,13 @@ npm install --save-dev redux-mock-store
 ## OptionLink.displayName = 'OptionLink'; in header.styles.jsx
 
 ## wrapper.find('OptionLink') // finds OptionLink styled components in wrapper
+
+# 336. Introduction to Webpack + Babel
+
+```
+npm install --save-dev webpack webpack-cli
+```
+
+```
+npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader
+```
