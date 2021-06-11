@@ -289,3 +289,13 @@ npm install --save-dev webpack webpack-cli
 ```
 npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader
 ```
+
+# 337. Webpack Config
+
+```
+npm install --save-dev style-loader css-loader
+```
+
+```
+npm install --save-dev html-loader html-webpack-plugin
+```
