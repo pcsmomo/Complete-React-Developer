@@ -305,3 +305,9 @@ npm install --save-dev html-loader html-webpack-plugin
 ```
 npx gatsby new gatsby-blog
 ```
+
+# 343. Building Our Blog 1
+
+```
+npm install --save gatsby-transformer-remark
+```
