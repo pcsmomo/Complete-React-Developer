@@ -311,3 +311,9 @@ npx gatsby new gatsby-blog
 ```
 npm install --save gatsby-transformer-remark
 ```
+
+# 347. Building Our Blog 5
+
+```
+npm install --save gatsby-plugin-styled-components styled-components babel-plugin-styled-components
+```
