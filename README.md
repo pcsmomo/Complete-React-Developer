@@ -1,5 +1,9 @@
 # 15. Environment Setup for Mac
 
+I have used
+Node : v14.15.4
+NPM : 6.14.10
+
 ## install nvm
 
 ## if nvm: command not found
