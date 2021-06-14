@@ -8,8 +8,12 @@ import "./App.scss";
 function App() {
   return (
     <div className="App">
-      <UserList />
-      <UserProfile name="Noah" email="pcsmomo@gmail.com" />
+      <UserList dataSource="https://jsonplaceholder.typicode.com/users" />
+      <UserProfile
+        name="Noah"
+        email="pcsmomo@gmail.com"
+        dataSource="https://jsonplaceholder.typicode.com/posts"
+      />
     </div>
   );
 }
