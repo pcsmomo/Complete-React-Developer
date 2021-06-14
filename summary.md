@@ -188,6 +188,10 @@ npm install --save lodash
 npm install --save compression
 ```
 
+# 278. React Performance Cheat Sheet
+
+[React Performance Cheat Sheet](https://houssein.me/progressive-react)
+
 # 289. Progressive Web Apps Examples
 
 [PokeDex](https://pokedex.org/)
