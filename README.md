@@ -49,7 +49,17 @@ git remote add origin git@github.com:pcsmomo/monsters-rolodex.git
 ```
 
 ```
-npm install --save gh-pages
+npm install --save-dev gh-pages
+```
+
+add two scripts and homepage in package.json
+
+```json
+"homepage": "https://pcsmomo.github.io/monsters-rolodex",
+"scripts": {
+  "predeploy": "yarn build",
+  "deploy": "gh-pages -d build"
+}
 ```
 
 ```
