@@ -167,6 +167,12 @@ npm install --save redux-thunk
 npm install --save redux-saga
 ```
 
+### Section 22: Master Project: Advanced React Hooks
+
+### 366. React-Redux Hooks : useSelector
+
+useSelector is supposed to replace mapStateToProps
+
 ### 226. Creating our Server Inside the Project
 
 ```
