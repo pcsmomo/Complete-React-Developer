@@ -1,7 +1,6 @@
 import React, { useEffect, lazy, Suspense } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import { createStructuredSelector } from 'reselect';
 
 import Header from './components/header/header.component';
 import Spinner from './components/spinner/spinner.component';
@@ -21,13 +20,17 @@ const CheckoutPage = lazy(() => import('./pages/checkout/checkout.component'));
 
 const App = () => {
   const currentUser = useSelector(selectCurrentUser);
-  const isHidden = useSelector((state) => state.cart.hidden);
-  console.log(currentUser);
-  console.log(isHidden);
+  const dispatch = useDispatch();
 
+  // This will cause a infinite loop as it is anonymous function
+  // const checkUserSessionHandler = () => dispatch(checkUserSession());
   // useEffect(() => {
-  //   checkUserSession();
-  // }, [checkUserSession]);
+  //   checkUserSessionHandler()
+  // }, [checkUserSessionHandler]);
+
+  useEffect(() => {
+    dispatch(checkUserSession());
+  }, [dispatch]);
 
   return (
     <div>
@@ -52,13 +55,5 @@ const App = () => {
     </div>
   );
 };
-
-const mapStateToProps = createStructuredSelector({
-  currentUser: selectCurrentUser
-});
-
-const mapDispatchToProps = (dispatch) => ({
-  checkUserSession: () => dispatch(checkUserSession())
-});
 
 export default App;

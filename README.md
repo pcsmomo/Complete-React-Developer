@@ -171,6 +171,11 @@ npm install --save redux-saga
 
 ### 366. React-Redux Hooks : useSelector
 
+```js
+// These hooks were first added in v7.1.0.
+import { useSelector, useDispatch } from 'react-redux';
+```
+
 useSelector is supposed to replace mapStateToProps
 
 ### 226. Creating our Server Inside the Project
