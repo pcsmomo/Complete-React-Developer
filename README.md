@@ -171,12 +171,18 @@ npm install --save redux-saga
 
 ### 366. React-Redux Hooks : useSelector
 
+Code : ./crwn-hooks-advanced
+
 ```js
 // These hooks were first added in v7.1.0.
 import { useSelector, useDispatch } from 'react-redux';
 ```
 
 useSelector is supposed to replace mapStateToProps
+
+### 370. useState Part 1
+
+Code : ./hooks-deep-dive
 
 ### 226. Creating our Server Inside the Project
 
