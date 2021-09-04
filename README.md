@@ -184,8 +184,14 @@ useSelector is supposed to replace mapStateToProps
 
 Code : ./hooks-deep-dive
 
-```html
+```jsx
 <h1>test1 value: {String(test1)}</h1>
+```
+
+### 371. useState Part 2
+
+```jsx
+<button onClick={() => setCount((prev) => prev + 1)}>
 ```
 
 ### 226. Creating our Server Inside the Project

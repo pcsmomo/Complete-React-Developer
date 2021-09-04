@@ -7,8 +7,8 @@ import { UseLayoutEffectExample } from './components/use-layout-effect-example/u
 const App = () => {
   return (
     <div className="App">
-      <UseStateExample1 />
-      {/* <UseStateExample2 /> */}
+      {/* <UseStateExample1 /> */}
+      <UseStateExample2 />
       {/* <UseEffectExample /> */}
       {/* <UseLayoutEffectExample /> */}
     </div>

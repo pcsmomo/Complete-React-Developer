@@ -12,6 +12,7 @@ export const UseStateExample2 = () => {
   return (
     <div>
       <h1>Count value: {count}</h1>
+      {/* <button onClick={() => setCount(count + 1)}> */}
       <button onClick={() => setCount((prev) => prev + 1)}>
         Increment count
       </button>
