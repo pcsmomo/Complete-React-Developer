@@ -184,6 +184,10 @@ useSelector is supposed to replace mapStateToProps
 
 Code : ./hooks-deep-dive
 
+```html
+<h1>test1 value: {String(test1)}</h1>
+```
+
 ### 226. Creating our Server Inside the Project
 
 ```
