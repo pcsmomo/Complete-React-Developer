@@ -1,12 +1,12 @@
 import { useState, useEffect, useCallback, useMemo } from 'react';
 
-export const UseEffectExample = () => {
+export const UseMemoExample = () => {
   const [test1, setTest1] = useState(true);
   const [test2, setTest2] = useState(true);
 
   const myObj = useMemo(
     () => ({
-      a: 'my value of a is ' + test1,
+      a: 'my value of a is ' + test1
     }),
     [test1]
   );

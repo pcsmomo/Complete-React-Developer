@@ -200,6 +200,15 @@ Code : ./hooks-deep-dive
 
 It can be the alternative of shouldComponentUpdate?
 
+### 375. useMemo
+
+[Difference between useCallback and useMemo](https://stackoverflow.com/questions/54963248/whats-the-difference-between-usecallback-and-usememo-in-practice/54963730)
+
+- useMemo is to memoize a calculation result between a function's calls and between renders
+- useCallback is to memoize a callback itself (referential equality) between renders
+- useRef is to keep data between renders (updating does not fire re-rendering)
+- useState is to keep data between renders (updating will fire re-rendering)
+
 ### 226. Creating our Server Inside the Project
 
 ```
