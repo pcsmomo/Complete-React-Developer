@@ -194,6 +194,12 @@ Code : ./hooks-deep-dive
 <button onClick={() => setCount((prev) => prev + 1)}>
 ```
 
+### 374. useEffect Part 3
+
+[useCallback](https://reactjs.org/docs/hooks-reference.html#usecallback)
+
+It can be the alternative of shouldComponentUpdate?
+
 ### 226. Creating our Server Inside the Project
 
 ```
