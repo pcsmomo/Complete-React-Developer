@@ -209,6 +209,12 @@ It can be the alternative of shouldComponentUpdate?
 - useRef is to keep data between renders (updating does not fire re-rendering)
 - useState is to keep data between renders (updating will fire re-rendering)
 
+### 376. useLayoutEffect
+
+- useEffect is executed **AFTER** painting DOM
+- useLayoutEffect is executed **BEFORE** painting DOM
+  - If something has to happen before CSS or DOM painting
+
 ### 226. Creating our Server Inside the Project
 
 ```

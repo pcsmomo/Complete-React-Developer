@@ -11,8 +11,8 @@ const App = () => {
       {/* <UseStateExample1 /> */}
       {/* <UseStateExample2 /> */}
       {/* <UseCallbackExample /> */}
-      <UseMemoExample />
-      {/* <UseLayoutEffectExample /> */}
+      {/* <UseMemoExample /> */}
+      <UseLayoutEffectExample />
     </div>
   );
 };
